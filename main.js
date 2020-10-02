@@ -7,9 +7,8 @@
         }
 
 // function to play single round of paper, scissors, rock.
-        function singleRound() {
+        function playRound() {
         const computerSelection = computerPlay();
-        const arr = ['paper', 'scissors', 'rock'];
         const playerSelection = prompt("Enter Selection: Paper, Scissors or Rock").toLowerCase();
         if (playerSelection == 'rock' && computerSelection == 'scissors') {
                 return "You Win. Rock Smashes Scissors";    
@@ -31,3 +30,8 @@
                   return "Draw";
           }
         }       
+
+// function to play 5x rounds of game
+        function game() {
+
+        }
