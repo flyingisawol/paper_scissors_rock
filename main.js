@@ -13,8 +13,10 @@
         if (playerSelection == 'rock' && computerPlay() == 'scissors') {
                 return "You Win. Rock Smashes Scissors";    
           } else if (playerSelection == 'rock' && computerPlay() == 'paper') {
-                  result = "You Lose. Paper beats Rock";
+                  return "You Lose. Paper beats Rock";
           } else if (playerSelection == 'rock' && computerPlay() == 'rock') {
-                  result = "Draw"; 
-          }        
+                  return "Draw"; 
+          } else if (playerSelection == 'paper' && computerPlay() == 'rock') {
+                  return "You Win. Paper beats Rock";
+          }
         }       
