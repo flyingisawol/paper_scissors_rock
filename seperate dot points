@@ -1,0 +1,8 @@
+<script>
+    // function to randomly select option within array, which will act as computer player
+    const arr = ['paper', 'scissors', 'rock']
+    const randomArray = Math.floor(Math.random() * arr.length);
+    function computerPlay(arr,randomArray)
+
+    function computerPlay();
+  </script>
