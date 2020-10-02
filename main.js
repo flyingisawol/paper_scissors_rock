@@ -10,7 +10,7 @@
         function singleRound() {
         const computerSelection = computerPlay();
         const arr = ['paper', 'scissors', 'rock'];
-        const playerSelection = prompt("Enter Selection: Paper, Scissors or Rock");
+        const playerSelection = prompt("Enter Selection: Paper, Scissors or Rock").toLowerCase();
         if (playerSelection == 'rock' && computerSelection == 'scissors') {
                 return "You Win. Rock Smashes Scissors";    
           } else if (playerSelection == 'rock' && computerSelection == 'paper') {
