@@ -14,10 +14,20 @@
         if (playerSelection == 'rock' && computerSelection == 'scissors') {
                 return "You Win. Rock Smashes Scissors";    
           } else if (playerSelection == 'rock' && computerSelection == 'paper') {
-                  return "You Lose. Paper beats Rock";
+                return "You Lose. Paper beats Rock";
           } else if (playerSelection == 'rock' && computerSelection == 'rock') {
-                  return "Draw"; 
+                return "Draw"; 
           } else if (playerSelection == 'paper' && computerSelection == 'rock') {
-                  return "You Win. Paper beats Rock";
+                return "You Win. Paper beats Rock";
+          } else if (playerSelection == 'paper' && computerSelection == 'scissors') {
+                  return "You lose. Scissors cut Paper";
+          } else if (playerSelection == 'paper' && computerSelection == 'paper') {
+                  return "Draw";
+          } else if (playerSelection == 'scissors' && computerSelection == 'paper') {
+                  return "You Win. Scissors cut Paper";
+          } else if (playerSelection == 'scissors' && computerSelection == 'rock') {
+                  return "You lose! Rock Smashes Scissors";
+          } else if (playerSelection == 'scissors' && computerSelection == 'scissors') {
+                  return "Draw";
           }
         }       
