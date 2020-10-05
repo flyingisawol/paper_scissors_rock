@@ -42,5 +42,7 @@
             if (playerSelection > computerSelection);
             console.log(playRound(playerSelection, computerSelection), n);
             n = n + 1;
+            if (n > 5)
+            console.log("winner or loser? how do i calculate this?");
           }
         }
